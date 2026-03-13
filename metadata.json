@@ -1,0 +1,7 @@
+{
+  "name": "Scan & Sell",
+  "description": "Scan items to identify them, estimate resale value, and generate selling listings.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
