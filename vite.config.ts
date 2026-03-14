@@ -14,12 +14,15 @@ export default defineConfig(({mode}) => {
         registerType: 'autoUpdate',
         includeAssets: ['icon.svg', 'pwa-192x192.png', 'pwa-512x512.png'],
         manifest: {
-          name: 'Умная Оценка вещей',
+          name: 'Умная Оценка',
           short_name: 'Оценка',
-          description: 'Мгновенно узнайте рыночную цену.',
+          description: 'Мгновенно узнайте рыночную цену и получите текст для объявления.',
           theme_color: '#050505',
           background_color: '#050505',
           display: 'standalone',
+          orientation: 'portrait',
+          scope: '/',
+          start_url: '/',
           icons: [
             {
               src: 'pwa-192x192.png',
